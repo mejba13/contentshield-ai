@@ -7,7 +7,8 @@
 
 AI-powered content protection and plagiarism defense WordPress plugin. Protect your content with invisible watermarking, fingerprinting, and plagiarism detection.
 
-![ContentShield AI Dashboard](https://img.shields.io/badge/Status-Active-success)
+<img width="2087" height="1419" alt="CleanShot 2025-12-12 at 6  11 29" src="https://github.com/user-attachments/assets/56a4c793-efba-4c4f-bc4c-9432c74e4ea6" />
+
 
 ## Features
 
