@@ -1,0 +1,27 @@
+/**
+ * ContentShield AI Public Styles
+ *
+ * @package ContentShield_AI
+ * @since 1.0.0
+ */
+
+/* Copy protection notification */
+.contentshield-copy-notice {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1e293b;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 99999;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.contentshield-copy-notice.show {
+    opacity: 1;
+    transform: translateY(0);
+}
