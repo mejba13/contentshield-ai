@@ -127,8 +127,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
     <!-- Main Content Grid -->
     <div class="cs-dashboard-grid">
-        <!-- Quick Actions Card -->
-        <div class="cs-card" data-animate="fade-up" style="--delay: 0.5s">
+        <!-- Quick Actions Card (Full Width) -->
+        <div class="cs-card cs-card-wide" data-animate="fade-up" style="--delay: 0.5s">
             <div class="cs-card-header">
                 <h2 class="cs-card-title">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

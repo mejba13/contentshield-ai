@@ -546,21 +546,27 @@
 
 /* Primary Button */
 .cs-btn-primary {
-    background: var(--cs-accent);
-    color: white;
-    border-color: var(--cs-accent);
+    background: var(--cs-accent) !important;
+    color: #ffffff !important;
+    border-color: var(--cs-accent) !important;
 }
 
 .cs-btn-primary:hover {
-    background: var(--cs-accent-hover);
-    border-color: var(--cs-accent-hover);
-    color: white;
+    background: var(--cs-accent-hover) !important;
+    border-color: var(--cs-accent-hover) !important;
+    color: #ffffff !important;
     box-shadow: var(--cs-shadow);
 }
 
 .cs-btn-primary:active {
-    background: var(--cs-accent-active);
+    background: var(--cs-accent-active) !important;
+    color: #ffffff !important;
     transform: translateY(1px);
+}
+
+.cs-btn-primary svg {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
 }
 
 /* Outline Button */
@@ -661,12 +667,23 @@
 }
 
 /* ============================================
-   QUICK ACTIONS - Enhanced
+   QUICK ACTIONS - Enhanced (Full Width)
    ============================================ */
+/* Make the Quick Actions card span full width */
+.cs-dashboard-grid > .cs-card:has(.cs-quick-actions) {
+    grid-column: 1 / -1;
+}
+
 .cs-quick-actions {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--cs-space-3);
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--cs-space-4);
+}
+
+@media (max-width: 1200px) {
+    .cs-quick-actions {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 640px) {
